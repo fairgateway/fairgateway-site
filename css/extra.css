@@ -1,0 +1,14 @@
+/* Widen the header logo slot so the FairGateway wordmark isn't squeezed
+   into the theme's default square icon size. */
+header a[href="."] span.size-8,
+header a[data-slot="button"] span.size-8 {
+  width: auto !important;
+  height: 2rem;
+}
+
+header a[href="."] span.size-8 img[alt="icon"],
+header a[data-slot="button"] span.size-8 img[alt="icon"] {
+  width: auto !important;
+  height: 100%;
+  max-width: 180px;
+}
