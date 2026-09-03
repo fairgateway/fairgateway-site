@@ -12,3 +12,8 @@ header a[data-slot="button"] span.size-8 img[alt="icon"] {
   height: 100%;
   max-width: 180px;
 }
+
+/* Hide the theme's "shadcn theme provided by @asiffer" footer credit. */
+footer .text-muted-foreground {
+  visibility: hidden;
+}
